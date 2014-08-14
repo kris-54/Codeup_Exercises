@@ -33,3 +33,14 @@ do {
 	$a = $a - 5;
 } while ($a >= -10);
 
+//create do while loop that starts at 2 and displays the result on each line while $a is less than 1000000
+
+$a = 2;
+
+do {
+	echo "{$a}\n";
+	$a = $a * $a;
+} while ($a < 1000000);
+
+
+
