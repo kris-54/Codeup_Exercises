@@ -1,7 +1,5 @@
 <?php
 
-
-
 // Create a function that checks if a variable is set or empty, and display "$variable_name is SET|EMPTY"
 
 // TEST: If var $nothing is set, display '$nothing is SET'
@@ -15,11 +13,11 @@
 // Unserialize the array $array, and output the results
 
 function variableCheck($a) {
-	if(isset($a)) {
-		echo "The variable is SET" . PHP_EOL;
-	} else {
-		echo "Variable is either zero or empty" . PHP_EOL;
-	}
+    if(isset($a)) {
+        echo "The variable is SET" . PHP_EOL;
+    } elseif (empty($a)) {
+        echo "Variable is either zero or empty" . PHP_EOL;
+    }
 }
 
 $nothing = NULL;
@@ -31,3 +29,4 @@ variableCheck($nothing);
 variableCheck($something);
 variableCheck($array);
 
+?>
