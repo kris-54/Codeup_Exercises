@@ -54,16 +54,18 @@ $pop_quiz = [
 
 
 
-
-foreach($pop_quiz as $key => $value) {
+foreach($pop_quiz as $key => $value) 
+{
     echo $key . ' ' . $value["question"] . PHP_EOL;
     $correct_answer = $value["correct_choice"];
-}       foreach ($value["answers"] as $letter => $answerContent) {
-            if($correct_answer == $value["correct_choice"]) {
-                echo "*" . $letter . $answerContent . PHP_EOL;
-            } else {
-                echo $letter . $answerContent . PHP_EOL;
-            }
+}      
+foreach ($value["answers"] as $letter => $answerContent) 
+{
+  if($correct_answer == $value["correct_choice"]) {
+    echo "*" . $letter . $answerContent . PHP_EOL;
+  } else {
+    echo $letter . $answerContent . PHP_EOL;
+  }
 }
 
 
