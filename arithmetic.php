@@ -1,5 +1,6 @@
 <?php
 
+//error function
 function error($a, $b) 
 {
     if (!is_numeric($a) && !is_numeric($b)) {
@@ -9,6 +10,8 @@ function error($a, $b)
     }
 }
 
+
+//add function
 function add($a, $b) 
 {
     if (is_numeric($a) && is_numeric($b)) {
@@ -18,6 +21,8 @@ function add($a, $b)
     }
 }   
 
+
+//subtract function
 function subtract($a, $b) 
 {
     if(is_numeric($a) && is_numeric($b)) {
@@ -27,6 +32,9 @@ function subtract($a, $b)
     }
 }
 
+
+
+//multiply function
 function multiply($a, $b) 
 {
     if(is_numeric($a) && is_numeric($b)) {
@@ -36,7 +44,7 @@ function multiply($a, $b)
     }
 }
 
-
+//modulus function
 function modulus($a, $b) 
 {
     if(is_numeric($a) && is_numeric($b)) {
@@ -47,6 +55,7 @@ function modulus($a, $b)
 }
 
 
+//divide function
 function divide($a,$b) 
 {
    if (is_numeric($a) && is_numeric($b) && $b != 0) {
