@@ -17,7 +17,7 @@ function add($a, $b) {
     } 
 }   
 
-echo add(3,4);
+
 
 function subtract($a, $b) {
     if(check($a,$b)) {
@@ -25,7 +25,7 @@ function subtract($a, $b) {
     } 
 }
 
-echo subtract(24,12);
+
 
 function multiply($a, $b) {
     if(check($a,$b)){
@@ -33,14 +33,13 @@ function multiply($a, $b) {
     } 
 }
 
-echo multiply(23,'cat');
+
 
 function modulus($a, $b) {
     if(check($a,$b)) {
         return $a % $b . PHP_EOL;
     } 
 }
-echo modulus(30,5);
 
 
 
@@ -52,7 +51,7 @@ function divide($a,$b) {
     }
 }
 
-echo divide (20,0);
+
 
  
 ?>
