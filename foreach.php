@@ -32,7 +32,7 @@ foreach ($things as $thingy)
 
 foreach ($things as $thingy) 
 {
-     if (is_array($thingy)) {
+    if (is_array($thingy)) {
         foreach($thingy as $thing) {
             echo"$thing" . PHP_EOL;
         }
@@ -49,19 +49,4 @@ foreach ($things as $thingy)
         echo "{$thingy}" . PHP_EOL;
     }
 }
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
 ?>
