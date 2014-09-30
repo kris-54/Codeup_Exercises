@@ -1,7 +1,6 @@
 <?php
 
 // loop through books
-
 $books = array(
     'The Hobbit' => array(
         'published' => 1937,
@@ -28,34 +27,11 @@ $books = array(
 foreach ($books as $key => $book) 
 {
     echo $key . PHP_EOL;
-
     foreach($book as $key => $details) {
         echo "$key $details" . PHP_EOL;
     }
-
     echo " --------- " . PHP_EOL;
-
 }
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-// foreach ($books as $title => $details)
-// {
-//     if ($details['published'] > 1950) {
-//     echo $title . PHP_EOL;
-//     foreach ($details as $key => $value)
-//     {    
-//     echo $key . ' ' . $value . PHP_EOL;
-//     }
-//     echo "****************\n";   
-// }
