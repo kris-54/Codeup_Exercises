@@ -11,8 +11,8 @@ $food_available = true;
 // 4. Create an if statement that will echo 'We are fed and good to go.' if both you have $food_available and are $hungry are true.
 if ($hungry == true  && $food_available == true) {
     echo "We are fed and good to go!\n";
-    } else {
-        echo "you are not fed\n";
+} else {
+    echo "you are not fed\n";
 }
 // 5. Now create another variable $have_money and set it to either TRUE or FALSE. 
 $have_money = false;
