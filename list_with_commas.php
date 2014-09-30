@@ -13,8 +13,8 @@ $famous_fake_physicists = implode(',', $physicists_array) . " and" . $last_item;
 echo "Some of the most famous fictional theoretical physicists are {$famous_fake_physicists}" . PHP_EOL;
 
 
-
-function humanized_list($string, $alphabetize = false) {
+function humanized_list($string, $alphabetize = false) 
+{
     $array = explode(', ', $string);
     // turns string into array
     if($alphabetize == TRUE) {
@@ -25,12 +25,7 @@ function humanized_list($string, $alphabetize = false) {
     $famous_fake_physicists = implode(', ', $array);// converts array into string
     $humanizedString =  $famous_fake_physicists . " and " . $lastItem . PHP_EOL;
     return $humanizedString;
-  
- }
-
-
-
- 
+}
 
  // List of famous peeps
  $physicists_string = 'Gordon Freeman, Samantha Carter, Sheldon Cooper, Quinn Mallory, Bruce Banner, Tony Stark';
@@ -42,13 +37,3 @@ function humanized_list($string, $alphabetize = false) {
  echo "Some of the most famous fictional theoretical physicists are {$famous_fake_physicists}.";
 
  ?>
-
-
-
-
-
-
-
-
-
-
