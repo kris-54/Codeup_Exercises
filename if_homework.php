@@ -20,9 +20,8 @@ $have_money = false;
 // Adjust your if statement so it reads. If you are $hungry and there is $food_available or $have_money then you will eat. 
 if ($hungry === true && $food_available === true || $have_money === true) {
 	echo "you will eat \n";
-// If none of those are true then echo "Not hungy but thank you!"
-	} else {
-		echo "not hungry but thank you \n";
+} else {
+	echo "not hungry but thank you \n";
 }
 
 
@@ -48,6 +47,3 @@ if ($food_available == true && $hungry == true || $have_money == true ) {
 } else {
 	echo "Not hungry but thank you!!!\n";
 }
-
-
-
